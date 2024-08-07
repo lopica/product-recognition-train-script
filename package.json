@@ -1,0 +1,16 @@
+{
+  "name": "capstone-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "train.js",
+  "scripts": {
+    "train": "node train.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.20.0"
+  }
+}
