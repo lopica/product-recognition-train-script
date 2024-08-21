@@ -2,15 +2,26 @@
   "name": "capstone-ai",
   "version": "1.0.0",
   "type": "module",
-  "main": "train.js",
+  "main": "server.js",
   "scripts": {
     "train": "node train.js",
+    "train2": "node train2.js",
+    "classify": "node classify.js",
+    "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^4.20.0"
+    "16": "^0.0.2",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs-node": "3.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "mathjs": "^13.0.3",
+    "mongodb": "^6.8.0",
+    "multer": "^1.4.5-lts.1"
   }
 }
